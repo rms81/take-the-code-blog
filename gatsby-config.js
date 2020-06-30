@@ -4,15 +4,15 @@ module.exports = {
     title: `Take The Code`,
     author: `Ricardo Santos`,
     description: `A place for the written word`,
-    siteUrl: `https://take-the-code.netlify.app/`,
+    siteUrl: `https://take-the-code.com`,
     social: {
       twitter: `takethecode`,
     },
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-emotion`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
